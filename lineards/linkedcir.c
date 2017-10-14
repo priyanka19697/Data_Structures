@@ -20,7 +20,7 @@ void main()
 
 
   int count=0,choice=1;
-  head = 0;
+  NODE *head = 0,*recent = 0, *temp;
   while(choice)
   {
       recent = (NODE*)malloc(sizeof(NODE));
