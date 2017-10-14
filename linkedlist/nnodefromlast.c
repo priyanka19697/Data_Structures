@@ -74,5 +74,5 @@ void main()
     printNode(head);
     int val = getnthfromlast(head, 4);
     printf("\n the value at this node is %d",val );
-    
+
 }
